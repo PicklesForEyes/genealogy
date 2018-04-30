@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url("../images/Zorowski,\ Mary.jpg");
+  background-opacity: .5;
+  border-radius: 0px;
+  color: #000;
+  text-align: center;
+}
+
+nav {
+  width: inherit;
+  position: fixed;
+  top: 0;
+}
+
+nav a {
+  color: #000;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0px;
+}
+
+nav a:hover {
+  background-color: #264f65;
+  color: #fff;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}

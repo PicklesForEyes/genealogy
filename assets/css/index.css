@@ -1,0 +1,36 @@
+body {
+  background-image: url('../images/oak-leaf2.jpg')
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url('../images/oak-leaf2.jpg')
+}
+
+p {
+  margin-top: 20%;
+  text-align: center;
+  vertical-align: center;
+}
+
+img {
+  height: 400px;
+  border-radius: 10px 40px;
+  align-content: center;
+}
+
+button {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: #264f65;
+  border-color: #264f65;
+}
+
+@media screen and (max-width: 640px) {
+  img {
+    width: 80%;
+    height: inherit;
+  }
+}
