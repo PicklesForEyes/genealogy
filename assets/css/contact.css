@@ -1,0 +1,4 @@
+.btn-info::hover {
+  background-color: #264f65;
+  border-color: #264f65;
+}
